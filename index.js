@@ -16,7 +16,7 @@ app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://sshubham123verma:shubham123@cluster0.fbixo.mongodb.net//Eduweb');
+mongoose.connect('mongodb+srv://sshubham123verma:shubham123@cluster0.fbixo.mongodb.net/Eduweb');
 
 // Use faculty routes
 app.use('/faculty', facultyRoutes);
